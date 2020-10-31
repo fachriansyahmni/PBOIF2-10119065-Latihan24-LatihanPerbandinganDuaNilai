@@ -17,6 +17,8 @@ public class PBOIF210119065Latihan24LatihanPerbandinganDuaNilai {
            ket = " Lebih besar dari ";
        }else if(n1 < n2){
            ket = " Lebih kecil dari ";
+       }else if(n1 == n2){
+           ket = " sama dengan ";
        }
        ket = n1 + ket + n2;
         return ket;
